@@ -1,0 +1,171 @@
+/* Font Import Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* Common CSS */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header CSS */
+.header{
+    background-color: #264653;
+}
+
+.header-text{
+    margin-top: 85px;
+}
+
+.header-text span{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.header-text h2{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.header-text p{
+    color: #E0E0E0;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.header-text a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #E76F51;
+    padding: 15px 45px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all linear .3s;
+}
+.header-text a:hover{
+    background-color: #98eb4a;
+}
+
+/* Main Start */
+.main{
+    background-color: #fdfdfd;
+}
+
+.feature-heading h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.feature-heading p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #E76F51;
+    text-transform: capitalize;
+}
+
+.img-gray{
+    filter: grayscale(1);
+}
+
+
+/* Client Start */
+.client-heading h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #0A0826;
+}
+.client-heading span{
+    color: #E76F51;
+}
+.client-body img{
+    width: 150px;
+    height: 150px;
+}
+.client-body p{
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.user-footer ul li{
+    margin-right: 10px;
+}
+.user-footer ul li i{
+    color: #E77C40;
+    font-size: 18px;
+}
+.user-footer h4{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #23A6F0;
+}
+.user-footer h5{
+   color: #252B42;
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 24px;
+}
+
+
+/* Faq Start */
+
+.faq{
+    margin: 90px 0;
+}
+.faq-heading h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #0D0925;
+}
+
+.faq-heading span{
+    color: #E76F51;
+}
+
+
+.faq-image img{
+    width: 430px;
+    height: 420px;
+}
+
+/* Popular brand start */
+
+.brand-heading h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #0D0925;
+
+}
+
+/* Contact Us Start */
+#contact{
+	background:#333333;
+	color:#f4f4f4;
+	padding:50px 0;
+}
+#contact h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+#contact a{
+	color:#333333;
+    transition: all linear .3s;
+}
+#contact a:hover{
+	text-decoration:none;
+	color:#E76F51;
+}
